@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# Streamlit cache
+**/.streamlit/
+
+# Mac OS or Windows junk
+.DS_Store
+Thumbs.db
