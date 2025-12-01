@@ -27,7 +27,6 @@ st.header("Step 2: Paste Access Token")
 
 access_token = st.text_area(
     "Paste the access token from the backend callback page:",
-    type="default",
     height=150,
 )
 
@@ -66,3 +65,4 @@ else:
         st.markdown("---")
         st.markdown(f"**Tweet ID:** `{t.get('id')}`")
         st.write(t.get("text", ""))
+
